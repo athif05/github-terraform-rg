@@ -9,10 +9,10 @@ terraform {
   }
 
   backend "azurerm" {
-    resource_group_name = "rg-for-tfstate"
+    resource_group_name  = "rg-for-tfstate"
     storage_account_name = "athifstorageaccount"
-    container_name = "my-tfstate-file"
-    key = "my-tfstate"
+    container_name       = "my-tfstate-file"
+    key                  = "my-tfstate"
   }
 }
 
