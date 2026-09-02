@@ -13,7 +13,7 @@ public_ip_name = "pip-terraform-vm"
 nsg_name       = "nsg-terraform-vm"
 
 vm_name = "vm-terraform"
-vm_size = "Standard_B2s"
+vm_size = "Standard_B1s"
 
 admin_username = "azureadmin"
 admin_password = "azure@05Admin"
